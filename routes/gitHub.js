@@ -3,7 +3,7 @@ const router = express.Router();
 const Github = require("../services/gitHub");
 
 router.get("/", (req, res, next) => {
-  res.send("holaaaaa bienvenido a los servicios de donantes");
+  res.send("Hey!, Welcome to the github Token API for HelloBuild Coding tasks");
 });
 
 router.post("/apitoken", async (req, res, next) => {
